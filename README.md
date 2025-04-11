@@ -1,9 +1,8 @@
 # Bike Buyers Analysis-Trend Using Power BI**
 
-## 🔍 Introduction  
-This project presents a comprehensive analysis of customer data obtained from a **US-based bike-selling store with branches across other global regions**. Using **Power BI**, an interactive dashboard was developed to uncover patterns, relationships, and insights among various customer attributes such as income, education, marital status, commute distance, and region. The goal is to enable data-driven decisions that improve targeted marketing and increase sales.
+##  Introduction  
+This project presents a comprehensive analysis of customer data obtained from a US-based bike-selling store with branches across other global regions. Using **Power BI**, an interactive dashboard was developed to uncover patterns, relationships, and insights among various customer attributes such as income, education, marital status, commute distance, and region. The goal is to enable data-driven decisions that improve targeted marketing and increase sales.
 
-### 🚀 [View Dashboard on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiMDA3N2EwYWMtMmIwOS00NTNjLTg1YTYtZjg4MDVhNmM5MzEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
 ## ❓ Problem Statement  
 Despite a sizable customer base, there is a lack of clarity on what characteristics differentiate bike buyers from non-buyers. The organization needs to understand the key drivers behind bike purchases in order to tailor marketing strategies, optimize outreach efforts, and improve customer targeting.
@@ -11,7 +10,7 @@ Despite a sizable customer base, there is a lack of clarity on what characterist
 ## 🎯 Aim of the Project  
 To identify the major demographic and socioeconomic factors that influence bike purchases using data visualization and analytics, and to develop a Power BI dashboard that presents these insights in a clear, interactive format for informed business decision-making.
 
-## 🧠 Skills and Concepts Demonstrated  
+## Skills and Concepts Demonstrated  
 - Data Cleaning and Preparation  
 - Data Modeling using Power BI  
 - DAX Calculations for KPIs  
@@ -21,10 +20,10 @@ To identify the major demographic and socioeconomic factors that influence bike 
 - Exploratory Data Analysis (EDA)  
 - Business Insight Generation  
 
-## 📊 Data Modeling  
+## Data Modeling  
 The dataset was loaded into Power BI and underwent necessary transformation in Power Query. Relationships were modeled based on unique identifiers to ensure the data was structured and optimized for analysis. Measures were created using DAX to compute KPIs such as total buyers, purchase rate, and average income of buyers and non-buyers.
 
-## 🖼️ Visualization  
+## Visualization  
 The dashboard consists of **two main pages**:
 
 ### Page 1 - Demographics Overview:  
@@ -37,7 +36,7 @@ The dashboard consists of **two main pages**:
 - Commute distance distribution among buyers  
 - KPI cards for Average Income of Buyers vs Non-Buyers  
 
-## 📌 Data Analysis & Insights
+## Data Analysis & Insights
 
 ### 🔑 KPIs  
 - **Total Buyers:** 481  
@@ -63,3 +62,8 @@ The dashboard consists of **two main pages**:
 - Tailor messaging for individuals with **Bachelor's or Graduate degrees**.  
 - Offer loyalty perks to **car owners and homeowners**.  
 - Consider **family-focused bike models** for households with 1–2 children.
+
+#### 🚀 [View Dashboard on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiMDA3N2EwYWMtMmIwOS00NTNjLTg1YTYtZjg4MDVhNmM5MzEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
+
+
+## Thank You
