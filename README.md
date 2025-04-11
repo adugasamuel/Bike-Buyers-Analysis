@@ -3,6 +3,8 @@
 ##  Introduction  
 This project presents a comprehensive analysis of customer data obtained from a US-based bike-selling store with branches across other global regions. Using **Power BI**, an interactive dashboard was developed to uncover patterns, relationships, and insights among various customer attributes such as income, education, marital status, commute distance, and region. The goal is to enable data-driven decisions that improve targeted marketing and increase sales.
 
+##### 🚀 [View Dashboard on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiMDA3N2EwYWMtMmIwOS00NTNjLTg1YTYtZjg4MDVhNmM5MzEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
+
 
 ## Problem Statement  
 Despite a sizable customer base, there is a lack of clarity on what characteristics differentiate bike buyers from non-buyers. The organization needs to understand the key drivers behind bike purchases in order to tailor marketing strategies, optimize outreach efforts, and improve customer targeting.
@@ -63,7 +65,4 @@ The dashboard consists of **two main pages**:
 - Offer loyalty perks to **car owners and homeowners**.  
 - Consider **family-focused bike models** for households with 1–2 children.
 
-#### 🚀 [View Dashboard on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiMDA3N2EwYWMtMmIwOS00NTNjLTg1YTYtZjg4MDVhNmM5MzEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
-
-
-## Thank You
+## Thank You!
