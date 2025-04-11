@@ -1,10 +1,10 @@
-# Bike Buyers Analysis-Trend Using Power BI**
+# Bike Buyers Analysis-Trend Using Power BI
 
 ##  Introduction  
 This project presents a comprehensive analysis of customer data obtained from a US-based bike-selling store with branches across other global regions. Using **Power BI**, an interactive dashboard was developed to uncover patterns, relationships, and insights among various customer attributes such as income, education, marital status, commute distance, and region. The goal is to enable data-driven decisions that improve targeted marketing and increase sales.
 
 
-## ❓ Problem Statement  
+## Problem Statement  
 Despite a sizable customer base, there is a lack of clarity on what characteristics differentiate bike buyers from non-buyers. The organization needs to understand the key drivers behind bike purchases in order to tailor marketing strategies, optimize outreach efforts, and improve customer targeting.
 
 ## 🎯 Aim of the Project  
