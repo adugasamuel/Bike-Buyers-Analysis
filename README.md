@@ -64,5 +64,10 @@ The dashboard consists of **two main pages**:
 - Tailor messaging for individuals with **Bachelor's or Graduate degrees**.  
 - Offer loyalty perks to **car owners and homeowners**.  
 - Consider **family-focused bike models** for households with 1–2 children.
+  
+The recommendation was made to help the company identify and target potential bike buyers more
+effectively by understanding key customer segments based on age, income, commute distance, and lifestyle. 
+This insight will guide more personalized marketing, improve sales conversion, 
+and support data-driven decision-making for future product and campaign strategies.
 
 ## Thank You!
