@@ -125,8 +125,8 @@ CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "No")
 These measures were critical for building **KPI cards** and comparative visuals.
 
 ---
--- Age Bin categorization
-Age Bin =
+Age Bin categorization
+```Age Bin =
 IF(
     'BikeData'[Age] <= 25, "Adolescence",
     IF(
@@ -134,9 +134,10 @@ IF(
         IF('BikeData'[Age] > 55, "Old Age", "Unknown")
     )
 )
-
--- Income Bin categorization
-Income Bin =
+```
+--- 
+Income Bin categorization
+```Income Bin =
 IF(
     'BikeData'[Income] <= 50000, "10k - 50k",
     IF(
@@ -147,27 +148,7 @@ IF(
         )
     )
 )
-
--- Total Buyers
-Total Buyers =
-CALCULATE(COUNTROWS('BikeData'), 'BikeData'[Purchased Bike] = "Yes")
-
--- Total Non-Buyers
-Total Non-Buyers =
-CALCULATE(COUNTROWS('BikeData'), 'BikeData'[Purchased Bike] = "No")
-
--- Purchase Rate (%)
-Purchase Rate (%) =
-DIVIDE([Total Buyers], [Total Buyers] + [Total Non-Buyers], 0) * 100
-
--- Avg Income Buyers
-Avg Income Buyers =
-CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "Yes")
-
--- Avg Income Non-Buyers
-Avg Income Non-Buyers =
-CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "No")
-
+```
 ---
 ## Analysis Processes
 
