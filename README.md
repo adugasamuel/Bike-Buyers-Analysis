@@ -197,8 +197,8 @@ These files demonstrate both **technical skills (data cleaning, DAX, visualizati
 
 ## Contact
 
-👤 **Your Name** — Data Analyst
-📧 Email: [Your email here]
+👤 **Aduga Emmanuel**
+📧 Email: [adugasamuel@gmail.com](adugasamuel@gmail.com)
 🔗 LinkedIn: [Your LinkedIn profile here]
 🌐 Portfolio: [Your website here]
 
