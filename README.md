@@ -179,7 +179,7 @@ These measures were critical for building **KPI cards** and comparative visuals.
    * Premium options for 60–100k+ customers.
 5. **Offer family packages or promotions** to offset declining purchases in larger families.
 
-![](Bike-Buyers-Analysis/to//Demography.png)
+![](Bike-Buyers-Analysis/Demography.png)
 ---
 
 ## Final Note
