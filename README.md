@@ -7,7 +7,7 @@ This project delivers a **professional two-page Power BI dashboard** analyzing b
 
 Key findings show that **middle-aged professionals with higher incomes and shorter commutes** are the most likely to purchase bikes, while purchase likelihood decreases with more children. These insights directly inform **marketing strategy, product targeting, and regional expansion opportunities**.
 
-👉 This repository includes:
+This repository includes:
 
 * The **Power BI `.pbix` file** (full dashboard).
 * A **PowerPoint summary deck** prepared for **executive review**.
