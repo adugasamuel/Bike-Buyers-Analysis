@@ -96,9 +96,10 @@ Since this was a **flat table dataset**, advanced modeling was not required. Ste
 1. Data load and transformation.
 2. Normalization and categorical cleaning.
 3. Exploratory Data Analysis (EDA).
-4. Creation of **DAX measures** for KPIs.
-5. Dashboard visualizations with custom theme.
-6. Navigation buttons for a professional user experience.
+4. Age binning (grouped ages into categories: Adolescence, Middle Age, Old Age).
+5. Creation of **DAX measures** for KPIs.
+6. Dashboard visualizations with custom theme.
+7. Navigation buttons for a professional user experience.
 
 ---
 
