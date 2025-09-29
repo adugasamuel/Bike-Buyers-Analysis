@@ -129,9 +129,9 @@ These measures were critical for building **KPI cards** and comparative visuals.
 Age Bin categorization
 ```Age Bin =
 IF(
-    'BikeData'[Age] <= 25, "Adolescence",
+    'BikeData'[Age] <= 30, "Adolescence",
     IF(
-        'BikeData'[Age] > 25 && 'BikeData'[Age] <= 55, "Middle Age",
+        'BikeData'[Age] > 31 && 'BikeData'[Age] <= 55, "Middle Age",
         IF('BikeData'[Age] > 55, "Old Age", "Unknown")
     )
 )
