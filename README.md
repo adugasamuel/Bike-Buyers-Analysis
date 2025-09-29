@@ -17,7 +17,7 @@ Key findings show that **middle-aged professionals with higher incomes and short
 
 ## Introduction
 
-The dataset was obtained from the **Bike Buyers Dataset** on Kaggle. It is a **simulated dataset** that mirrors real-world sales and customer demographic information, commonly used for analytical and visualization practice.
+The dataset was obtained from the [**Bike Buyers Dataset on Kaggle.**](https://www.kaggle.com/datasets/heeraldedhia/bike-buyers?resource=download). It is a **simulated dataset** that mirrors real-world sales and customer demographic information, commonly used for analytical and visualization practice.
 
 This project forms part of my **professional Data Analyst portfolio** and demonstrates how to turn raw customer data into meaningful insights using **Power BI, DAX, and analytical storytelling**.
 
