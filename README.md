@@ -41,7 +41,7 @@ By applying **business intelligence techniques** to customer data, this project 
 * Improve buyer targeting.
 * Increase overall bike sales.
 
-➡️ You can view the project here: **[Insert published Power BI report link once hosted]**
+➡️ [You can view the project here](https://app.powerbi.com/view?r=eyJrIjoiMDA3N2EwYWMtMmIwOS00NTNjLTg1YTYtZjg4MDVhNmM5MzEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ---
 
