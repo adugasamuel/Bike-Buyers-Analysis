@@ -106,7 +106,7 @@ Since this was a **flat table dataset**, advanced modeling was not required. Ste
 
 ### 🔹 Key DAX Measures
 
-``DAX
+DAX
 Total Buyers =
 CALCULATE(COUNTROWS('BikeData'), 'BikeData'[Purchased Bike] = "Yes")
 
