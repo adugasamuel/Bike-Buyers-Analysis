@@ -199,7 +199,7 @@ These files demonstrate both **technical skills (data cleaning, DAX, visualizati
 
 👤 **Aduga Emmanuel**
 📧 Email: [adugasamuel@gmail.com](adugasamuel@gmail.com)
-🔗 LinkedIn: [Your LinkedIn profile here]
+🔗 [LinkedIn](https://www.linkedin.com/in/aduga-emmanuel-170396132/)
 🌐 Portfolio: [Your website here]
 
 ---
