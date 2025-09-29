@@ -187,7 +187,7 @@ This project highlights the **power of BI dashboards** in delivering business-cr
 
 The repository includes:
 
-* **Power BI `.pbix` file** (full interactive dashboard).
+* **Bike buyer `xlsx` file** .
 * **PowerPoint summary deck** created for **executive review**.
 * Dashboard screenshots (Overview & Demography).
 
