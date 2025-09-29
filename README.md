@@ -181,7 +181,7 @@ These measures were critical for building **KPI cards** and comparative visuals.
 
 ##
 ## Overview Page  
-![Overview Page](https://github.com/adugasamuel/Bike-Buyers-Analysis.git?raw=true)
+![Overview Page](https://github.com/adugasamuel/Bike-Buyers-Analysis/blob/main/screenshots/overview.png?raw=true)
 
 ---
 
