@@ -1,12 +1,3 @@
-Perfect 👌 — let’s refine everything once more, tighten the structure for a **globally professional standard**, and add what you asked:
-
-1. A **short executive summary** at the very top.
-2. Include the note about the **PowerPoint summary file for executive review**.
-3. Double-check all sections for completeness, clarity, and flow.
-
-Here’s the final README (ready to paste into GitHub):
-
----
 
 # 🚴‍♂️ Bike Buyers Analysis — Power BI Dashboard
 
