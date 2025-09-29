@@ -1,73 +1,133 @@
-# Bike Buyers Analysis Trend Using Power BI
+________________________________________
+🚴‍ Bike Buyers Analysis — Power BI Dashboard
+Executive Summary
+This project delivers a professional two-page Power BI dashboard analyzing bike buyer demographics and purchasing behavior. Using a dataset of 1,000 customers, the dashboard reveals who buys bikes and why, comparing buyers vs non-buyers across income, age, education, region, commute distance, and family size.
+Key findings show that middle-aged professionals with higher incomes and shorter commutes are the most likely to purchase bikes, while purchase likelihood decreases with more children. These insights directly inform marketing strategy, product targeting, and regional expansion opportunities.
+👉 This repository includes:
+•	The Power BI .pbix file (full dashboard).
+•	A PowerPoint summary deck prepared for executive review.
+•	Screenshots of the dashboards (Overview & Demography).
+________________________________________
+Introduction
+The dataset was obtained from the Bike Buyers Dataset on Kaggle. It is a simulated dataset that mirrors real-world sales and customer demographic information, commonly used for analytical and visualization practice.
+This project forms part of my professional Data Analyst portfolio and demonstrates how to turn raw customer data into meaningful insights using Power BI, DAX, and analytical storytelling.
+________________________________________
+Project Description
+This project centers on building a two-page interactive Power BI dashboard that provides a clear picture of customer behavior in bike purchases. It identifies key buyer segments and helps businesses understand how income, demographics, commute, and lifestyle influence purchase decisions.
+The dashboard is designed to be management-ready: visually intuitive, interactive, and structured to answer strategic business questions in seconds.
+________________________________________
+Project Context
+Organizations often struggle to understand which customers are most likely to purchase bikes. Without data-driven insights, marketing strategies remain broad, inefficient, and costly.
+By applying business intelligence techniques to customer data, this project provides actionable insights that can:
+•	Reduce wasted marketing spend.
+•	Improve buyer targeting.
+•	Increase overall bike sales.
+➡️ You can view the project here: [Insert published Power BI report link once hosted]
+________________________________________
+Problem Statement
+The company lacks clear, data-backed insights into who its bike customers are. Without this knowledge, resources are misallocated, and sales growth opportunities are missed.
+Specifically:
+•	Which age groups, income brackets, and occupations are most likely to buy bikes?
+•	How do factors like region, commute distance, and family size affect purchases?
+•	What customer profiles should the company prioritize for marketing and sales campaigns?
+This project addresses these questions by analyzing the dataset and creating a comprehensive Power BI dashboard.
+________________________________________
+Aim of the Project
+The project aims to:
+•	Identify demographic and economic factors influencing bike purchases.
+•	Compare buyers vs non-buyers on income, family size, and commute distance.
+•	Create an interactive and professional Power BI dashboard with executive-ready visuals.
+•	Provide strategic recommendations to increase sales and improve customer targeting.
+•	Showcase technical, analytical, and storytelling skills for my professional portfolio.
+________________________________________
+My Approach
+🔹 Data Cleaning Checklist
+•	Loaded the Bike_Buyer dataset with the following fields:
+ID, Marital Status, Gender, Income, Children, Education, Occupation, Home Owner, Cars, Commute Distance, Region, Age, Purchase Bike.
+•	Removed blank spaces and standardized categorical values (e.g., M → Male, F → Female).
+•	Checked and corrected data types.
+•	Created age and income bins for better segmentation.
+•	Removed duplicates and missing values.
+Context:
+•	Rows before cleaning: 1,027
+•	Rows after cleaning: 1,000
+________________________________________
+🔹 Modelling & Engineering
+Since this was a flat table dataset, advanced modeling was not required. Steps included:
+1.	Data load and transformation.
+2.	Normalization and categorical cleaning.
+3.	Exploratory Data Analysis (EDA).
+4.	Creation of DAX measures for KPIs.
+5.	Dashboard visualizations with custom theme.
+6.	Navigation buttons for a professional user experience.
+________________________________________
+Analysis / Work Done
+🔹 Key DAX Measures
+Total Buyers =
+CALCULATE(COUNTROWS('BikeData'), 'BikeData'[Purchased Bike] = "Yes")
 
-##  Introduction  
-This project presents a comprehensive analysis of customer data obtained from a US-based bike-selling store with branches across other global regions. Using **Power BI**, an interactive dashboard was developed to uncover patterns, relationships, and insights among various customer attributes such as income, education, marital status, commute distance, and region. The goal is to enable data-driven decisions that improve targeted marketing and increase sales.
+Total Non-Buyers =
+CALCULATE(COUNTROWS('BikeData'), 'BikeData'[Purchased Bike] = "No")
 
-##### 🚀 [View Dashboard on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiMDA3N2EwYWMtMmIwOS00NTNjLTg1YTYtZjg4MDVhNmM5MzEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
+Purchase Rate (%) =
+DIVIDE([Total Buyers], [Total Buyers] + [Total Non-Buyers], 0) * 100
 
+Avg Income Buyers =
+CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "Yes")
 
-## Problem Statement  
-Despite a sizable customer base, there is a lack of clarity on what characteristics differentiate bike buyers from non-buyers. The organization needs to understand the key drivers behind bike purchases in order to tailor marketing strategies, optimize outreach efforts, and improve customer targeting.
-
-## 🎯 Aim of the Project  
-To identify the major demographic and socioeconomic factors that influence bike purchases using data visualization and analytics, and to develop a Power BI dashboard that presents these insights in a clear, interactive format for informed business decision-making.
-
-## Skills and Concepts Demonstrated  
-- Data Cleaning and Preparation  
-- Data Modeling using Power BI  
-- DAX Calculations for KPIs  
-- Data Transformation in Power Query  
-- Slicer and Filter Implementation  
-- Visual Storytelling and Design  
-- Exploratory Data Analysis (EDA)  
-- Business Insight Generation  
-
-## Data Modeling  
-The dataset was loaded into Power BI and underwent necessary transformation in Power Query. Relationships were modeled based on unique identifiers to ensure the data was structured and optimized for analysis. Measures were created using DAX to compute KPIs such as total buyers, purchase rate, and average income of buyers and non-buyers.
-
-## Visualization  
-The dashboard consists of **two main pages**:
-
-### Page 1 - Demographics Overview:  
-- Clustered column charts and bar charts for Age, Gender, Marital Status, Region, Education, and Number of Children  
-- KPI cards for Total Number of Buyers and Purchase Rate  
-- Slicers for Car Owner, Home Owner, and Commute Distance  
-
-### Page 2 - Income & Commute Patterns:  
-- Bar charts analyzing buyers by Income Range and Average Income  
-- Commute distance distribution among buyers  
-- KPI cards for Average Income of Buyers vs Non-Buyers  
-
-## Data Analysis & Insights
-
-### 🔑 KPIs  
-- **Total Buyers:** 481  
-- **Total Non-Buyers:** 519  
-- **Purchase Rate:** 48.10%  
-- **Average Income (Buyers):** $58K  
-- **Average Income (Non-Buyers):** $54K  
-
-### 💡 Key Insights  
-- Buyers are mostly aged **31–54**, showing a strong mid-age demographic.  
-- **Males and married individuals** form the bulk of bike buyers.  
-- Individuals with **Bachelor’s degrees** are more likely to purchase.  
-- **1 or 2 children** in the household correlates with higher purchase rates.  
-- Most buyers earn **$60K–$90K or $30K–$60K**.  
-- Buyers often commute **0–1 mile or 5–10 miles**, suggesting short- to mid-range travel use.  
-- **North America** has the highest buyer and non-buyer counts, suggesting high saturation and opportunity for focused strategies.
-
-## 🧭 Recommendations  
-- Focus marketing on **males aged 35–44** with mid-range incomes ($60K–$90K).  
-- Develop targeted ads for **married individuals with young families**.  
-- Explore new market opportunities in **Europe and the Pacific regions**.  
-- Promote bikes as practical commute solutions for **0–10 mile** travel.  
-- Tailor messaging for individuals with **Bachelor's or Graduate degrees**.  
-- Offer loyalty perks to **car owners and homeowners**.  
-- Consider **family-focused bike models** for households with 1–2 children.
-  
-These recommendations were made to help the company identify and target potential bike buyers more
-effectively by understanding key customer segments based on age, income, commute distance, and lifestyle. 
-This insight will guide more personalized marketing, improve sales conversion, 
-and support data-driven decision-making for future product and campaign strategies.
-
-## Thank You!
+Avg Income Non-Buyers =
+CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "No")
+These measures were critical for building KPI cards and comparative visuals.
+________________________________________
+Analysis Processes
+•	Data Collection & Cleaning (Excel, Power BI).
+•	Exploratory Data Analysis (EDA) for trends.
+•	KPI Calculation (Buyers, Non-Buyers, Purchase Rate, Avg Income).
+•	Visualization: Two-page Power BI dashboard with interactive slicers.
+•	Insight Extraction: Interpreted visuals to address the problem statement.
+•	Recommendations: Business strategies drawn from the data.
+________________________________________
+Skills & Tools Used
+•	Excel — Initial exploration and checks.
+•	Power BI — Dashboard creation, slicers, cross-filtering.
+•	DAX — Measures for KPIs and advanced calculations.
+•	Business Knowledge — Translating patterns into strategies.
+•	Analytical Storytelling — Communicating insights clearly.
+________________________________________
+KPIs Tracked
+•	Total Buyers: 481
+•	Total Non-Buyers: 519
+•	Purchase Rate (%): 48.1%
+•	Avg Income (Buyers): 58K
+•	Avg Income (Non-Buyers): 54.9K
+________________________________________
+Key Features
+•	Two-page interactive dashboard: Overview & Demography.
+•	Executive-friendly visuals: KPI cards, donut charts, bar/line graphs.
+•	Slicers & filters for dynamic exploration.
+•	Custom color theme (blue = buyers, orange = non-buyers).
+•	Navigation buttons for seamless report flow.
+•	Export-ready insights for management presentations.
+________________________________________
+Recommendations
+1.	Target middle-aged professionals — the largest buyer group.
+2.	Expand marketing in the Pacific region, which has higher buyer share.
+3.	Highlight short-distance commuting benefits (0–1 mile commuters show higher adoption).
+4.	Segment by income:
+o	Affordable models for 10–50k earners.
+o	Premium options for 60–100k+ customers.
+5.	Offer family packages or promotions to offset declining purchases in larger families.
+________________________________________
+Final Note
+This project highlights the power of BI dashboards in delivering business-critical insights.
+The repository includes:
+•	Power BI .pbix file (full interactive dashboard).
+•	PowerPoint summary deck created for executive review.
+•	Dashboard screenshots (Overview & Demography).
+These files demonstrate both technical skills (data cleaning, DAX, visualization) and business acumen (recommendations, strategy alignment).
+________________________________________
+Contact
+👤 Your Name — Data Analyst
+📧 Email: [Your email here]
+🔗 LinkedIn: [Your LinkedIn profile here]
+🌐 Portfolio: [Your website here]
