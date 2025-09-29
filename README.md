@@ -121,7 +121,7 @@ CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "Yes")
 
 Avg Income Non-Buyers =
 CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "No")
-``
+
 These measures were critical for building **KPI cards** and comparative visuals.
 
 ---
