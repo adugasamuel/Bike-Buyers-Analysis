@@ -201,9 +201,3 @@ These files demonstrate both **technical skills (data cleaning, DAX, visualizati
 📧 Email: [adugasamuel@gmail.com](adugasamuel@gmail.com)
 🔗 [LinkedIn](https://www.linkedin.com/in/aduga-emmanuel-170396132/)
 🌐 [Portfolio](https://linktr.ee/adugasamuel)
-
----
-
-✅ Now this README is **executive-ready**, comprehensive, and polished.
-
-Would you like me to also **draft the Executive PowerPoint deck outline** (like 5–7 slides: KPIs, key insights, recommendations) so it aligns perfectly with this README? That way your `.pbix`, README, and PowerPoint tell one consistent story.
