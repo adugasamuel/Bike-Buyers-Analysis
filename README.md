@@ -106,7 +106,7 @@ Since this was a **flat table dataset**, advanced modeling was not required. Ste
 
 ### 🔹 Key DAX Measures
 
-DAX
+```DAX
 Total Buyers =
 CALCULATE(COUNTROWS('BikeData'), 'BikeData'[Purchased Bike] = "Yes")
 
@@ -121,7 +121,7 @@ CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "Yes")
 
 Avg Income Non-Buyers =
 CALCULATE(AVERAGE('BikeData'[Income]), 'BikeData'[Purchased Bike] = "No")
-
+```
 These measures were critical for building **KPI cards** and comparative visuals.
 
 ---
