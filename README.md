@@ -178,7 +178,9 @@ These measures were critical for building **KPI cards** and comparative visuals.
    * Affordable models for 10–50k earners.
    * Premium options for 60–100k+ customers.
 5. **Offer family packages or promotions** to offset declining purchases in larger families.
-#![Overview Page](overview.png)
+
+![](Bike-Buyers-Analysis
+/Demography.png)
 ---
 
 ## Final Note
