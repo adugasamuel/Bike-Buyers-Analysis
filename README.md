@@ -139,11 +139,11 @@ IF(
 Income Bin categorization
 ```Income Bin =
 IF(
-    'BikeData'[Income] <= 50000, "10k - 50k",
+    'BikeData'[Income] <= 50000, "10k - 50k earners",
     IF(
-        'BikeData'[Income] > 50000 && 'BikeData'[Income] <= 100000, "60k - 100k",
+        'BikeData'[Income] > 50000 && 'BikeData'[Income] <= 100000, "60k - 100k earners",
         IF(
-            'BikeData'[Income] > 100000 && 'BikeData'[Income] <= 160000, "110k - 160k",
+            'BikeData'[Income] > 100000 && 'BikeData'[Income] <= 160000, "110k - 160k earners",
             "Other"
         )
     )
