@@ -41,7 +41,7 @@ By applying **business intelligence techniques** to customer data, this project 
 * Improve buyer targeting.
 * Increase overall bike sales.
 
-## [You can view the Interractie Dashboard ➡️ here](https://app.powerbi.com/view?r=eyJrIjoiMDA3N2EwYWMtMmIwOS00NTNjLTg1YTYtZjg4MDVhNmM5MzEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+## [You can view the Interractive Dashboard ➡️ here](https://app.powerbi.com/view?r=eyJrIjoiMDA3N2EwYWMtMmIwOS00NTNjLTg1YTYtZjg4MDVhNmM5MzEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ---
 
