@@ -9,7 +9,7 @@ Key findings show that **middle-aged professionals with higher incomes and short
 
 This repository includes:
 
-* The Bike buyers  `Xlsx` file**
+* The **Bike buyers**  `Xlsx` file
 * Screenshots of the dashboards (`Overview` & `Demography`).
 * A **PowerPoint summary deck** prepared for **executive review**.
 
