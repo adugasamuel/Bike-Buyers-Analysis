@@ -9,9 +9,9 @@ Key findings show that **middle-aged professionals with higher incomes and short
 
 This repository includes:
 
-* The **Power BI `.pbix` file** (full dashboard).
-* A **PowerPoint summary deck** prepared for **executive review**.
+* The Bike buyers  `Xlsx` file**
 * Screenshots of the dashboards (`Overview` & `Demography`).
+* A **PowerPoint summary deck** prepared for **executive review**.
 
 ---
 
