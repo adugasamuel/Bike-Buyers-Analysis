@@ -217,7 +217,7 @@ The repository includes:
 * **PowerPoint summary deck** created for **executive review**.
 * Dashboard screenshots (Overview & Demography).
 
-These files demonstrate both **technical skills (data cleaning, DAX, visualization)** and **business acumen (recommendations, strategy alignment)**.
+These analytic processes demonstrate both **technical skills (data cleaning, DAX, visualization)** and **business acumen (recommendations, strategy alignment)**.
 
 ---
 
@@ -227,9 +227,10 @@ These files demonstrate both **technical skills (data cleaning, DAX, visualizati
 
 📧[Email](adugasamuel@gmail.com)
 
-🔗 [LinkedIn](https://www.linkedin.com/in/aduga-emmanuel-170396132/)
+🔗[LinkedIn](https://www.linkedin.com/in/aduga-emmanuel-170396132/)
 
-🌐 [Portfolio](https://linktr.ee/adugasamuel)
+🌐[Portfolio]
+(https://linktr.ee/adugasamuel)
 
 ---
 
