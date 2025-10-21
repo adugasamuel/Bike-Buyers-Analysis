@@ -52,7 +52,7 @@ The company lacks **clear, data-backed insights** into who its bike customers ar
 Specifically:
 
 * Which **age groups, income brackets, and occupations** are most likely to buy bikes?
-* How do factors like **region, commute distance, and family size** affect purchases?
+* How do factors like **region, commute distance, car ownership, home ownership and family size** affect purchases?
 * What customer profiles should the company prioritize for **marketing and sales campaigns**?
 
 This project addresses these questions by analyzing the dataset and creating a **comprehensive Power BI dashboard**.
