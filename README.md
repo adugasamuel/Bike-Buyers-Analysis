@@ -224,14 +224,11 @@ These analytic processes demonstrate both **technical skills (data cleaning, DAX
 ## Contact
 
 👤**Aduga Emmanuel**
+* [**adugasamuel@gmail.com**](adugasamuel@gmail.com)
+* [**GitHub**](https://github.com/adugasamuel)
+* [**LinkedIn**](https://www.linkedin.com/in/aduga-emmanuel-170396132/)
+* [portfolio](https://adugasamuel.github.io/)
 
-📧[adugasamuel@gmail.com](adugasamuel@gmail.com)
-
-🔗[LinkedIn](https://www.linkedin.com/in/aduga-emmanuel-170396132/)
-
-🌐[Portfolio](https://linktr.ee/adugasamuel)
-
-[Github](https://github.com/adugasamuel)
 ---
 
 ## Thank You.
