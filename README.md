@@ -231,6 +231,7 @@ These analytic processes demonstrate both **technical skills (data cleaning, DAX
 
 🌐[Portfolio](https://linktr.ee/adugasamuel)
 
+  [Github](https://github.com/adugasamuel)
 ---
 
 ## Thank You.
