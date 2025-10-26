@@ -225,13 +225,13 @@ These analytic processes demonstrate both **technical skills (data cleaning, DAX
 
 👤**Aduga Emmanuel**
 
-📧[Email](adugasamuel@gmail.com)
+📧[adugasamuel@gmail.com](adugasamuel@gmail.com)
 
 🔗[LinkedIn](https://www.linkedin.com/in/aduga-emmanuel-170396132/)
 
 🌐[Portfolio](https://linktr.ee/adugasamuel)
 
-  [Github](https://github.com/adugasamuel)
+[Github](https://github.com/adugasamuel)
 ---
 
 ## Thank You.
